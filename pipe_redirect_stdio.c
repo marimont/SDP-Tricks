@@ -1,3 +1,10 @@
+/*this is a very simple and basic program which shows how a pipeline actually works:
+	- two processes are created
+	- the first process stdout is redirected to a write pipe terminal
+	- the second process stdin is redirected to a read pipe terminal
+	- the two processes read/write from their stdin/stdout, without knowing that their filedes have been redirected
+*/
+
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
