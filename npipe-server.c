@@ -1,5 +1,5 @@
 /*just a sample server to show how named pipes can be 
-used to implement a clien-server communication*/
+used to implement a client-server communication*/
 
 #include <stdio.h>
 #include <stdlib.h>
